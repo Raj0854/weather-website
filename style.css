@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: skyblue;
+}
+
+.container{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 50vh;
+    width: 40vh;
+    
+}
+form{
+    margin: 2rem 0 2rem 0;
+}
+form p {
+    font-size: 2rem;
+
+}
+form input{
+    width: 90%;
+    border: 1px solid lightgrey;
+    outline: none;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0 ;
+}
+form button{
+    background-color: #59a5d1;
+    border: 2px solid skyblue;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+}
+#msg{
+    font-size: 1.75rem;
+    /* font-family: 'C', Courier, monospace; */
+}
